@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="8b842da2-e7d6-431b-b035-fdb3233d8cc8" name="sailboat" url="http://85.83.84.206">
+        <fileTransfer host="85.83.84.206" port="3000" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="3000" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
