@@ -119,11 +119,10 @@ void driveActuators(int x) {
     if (x > SERVOMIN && x < SERVOMAX) //If value to write to motors is between servo MAX and MIN
     pwm.setPWM(0, 0, x);
 
+
     //
     gps_msg.angular.x = x;
     DebugPublisher.publish(&gps_msg);
-
-
 }
 
 

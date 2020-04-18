@@ -9,6 +9,13 @@
           </advancedOptions>
         </fileTransfer>
       </webServer>
+      <webServer id="3ceaec98-527c-4c90-a874-84279c68a32b" name="vpn_sailboat" url="http://localhost">
+        <fileTransfer rootFolder="/home/sailboat/catkin_ws/arduino_programs/" accessType="SFTP" host="10.8.0.10" port="22" sshConfigId="eb6f02a5-23e2-45aa-bfc9-2b2d7711ac88" sshConfig="sailboat@10.8.0.10:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </project>
