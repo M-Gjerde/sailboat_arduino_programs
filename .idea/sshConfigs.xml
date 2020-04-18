@@ -2,8 +2,7 @@
 <project version="4">
   <component name="SshConfigs">
     <configs>
-      <sshConfig authType="PASSWORD" host="85.83.84.206" id="9112dec8-9ca8-4e7a-ab00-83fb1d1ff57a" port="3000" customName="sailboat" nameFormat="CUSTOM" username="sailboat" />
-      <sshConfig authType="PASSWORD" host="85.83.84.206" id="a0155402-19e4-435d-8898-7b882c66cbc2" port="3000" customName="sailboat" nameFormat="CUSTOM" username="sailboat" />
+      <sshConfig authType="PASSWORD" host="192.168.1.46" id="df2fb35a-8ea0-4993-a1cf-21ad16aa9786" port="22" customName="sailboat" nameFormat="CUSTOM" username="sailboat" />
     </configs>
   </component>
 </project>

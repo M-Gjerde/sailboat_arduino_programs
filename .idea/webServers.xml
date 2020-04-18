@@ -3,11 +3,10 @@
   <component name="WebServers">
     <option name="servers">
       <webServer id="8b842da2-e7d6-431b-b035-fdb3233d8cc8" name="sailboat" url="http://85.83.84.206">
-        <fileTransfer host="85.83.84.206" port="3000" accessType="SFTP">
+        <fileTransfer accessType="SFTP" host="192.168.1.46" port="22" sshConfigId="df2fb35a-8ea0-4993-a1cf-21ad16aa9786" sshConfig="sailboat">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
-          <option name="port" value="3000" />
         </fileTransfer>
       </webServer>
     </option>
